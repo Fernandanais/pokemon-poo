@@ -1,0 +1,31 @@
+body {
+	background-image: url("../img/pk.png");
+	background-repeat: no-repeat;
+	color: 	#4169E1;
+	font-size: 20px;
+	font-family: arial;
+	text-align: center;
+	background-attachment: fixed;
+	background-position: 30%;
+	background-color: #E0FFFF;
+}
+
+button {
+	border-style: solid;
+	border-color: 	#4169E1;
+	background-color: #FFD700;
+	width: 90px;
+	height: 30px;
+	border-radius: 15%;
+	color: #4169E1;
+}
+select{
+	background-color: #FFD700;
+	border-style: solid;
+	border-color: #4169E1;
+	height: 25px;
+	color: #00008B;
+
+}
+
+

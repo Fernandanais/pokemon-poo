@@ -2,17 +2,19 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/estilos.css">
+
 	<title>Document</title>
 </head>
 <body>
-	 <select class= "eleccionA">
+	 <select class= "eleccionA" id = "selA">
               <option value="0">Selecciona tu Pokemon</option>
               <option value="Charmander">Charmander</option>
               <option value="Pikachu">Pikachu</option>
               <option value="Tangananica">Tangananica</option>
               <option value="Tanganana">Tanganana</option>
      </select>
-     <select class= "eleccionB">
+     <select class= "eleccionB" id = "selB">
               <option value="0">Selecciona tu Pokemon</option>
               <option value="Charmander">Charmander</option>
               <option value="Pikachu">Pikachu</option>
@@ -20,9 +22,11 @@
               <option value="Tanganana">Tanganana</option>
      </select>
 
-		<button onclick="atacar()">pelear</button>
+		<button onclick="pelear()">pelear</button>
 
-	<script type="text/javascript"></script>
+	<p id = "resultado"></p>
+
+	
 	<script src="js/main.js"></script>
 </body>
 </html>
